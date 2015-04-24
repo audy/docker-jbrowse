@@ -6,7 +6,7 @@ Docker recipe for JBrowse
 
 ### Building & Running
 
-```
+```sh
 docker build .
 docker run --publish 8080:80 --volume $PWD/my-data:/data <image id>
 ```
@@ -15,7 +15,7 @@ docker run --publish 8080:80 --volume $PWD/my-data:/data <image id>
 
 (example using Bacterial genome annotated using RAST)
 
-```
+```sh
 # connect to running Docker container:
 
 docker exec -t -i <container id> /bin/bash
