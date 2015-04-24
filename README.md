@@ -35,6 +35,9 @@ bin/flatfile-to-json.pl \
 exit
 ```
 
+You should be able to browse your genome by pointing your browser to:
+`http://dockerhost:8080/jbrowse/`.
+
 You can now commit the container with your data so that it will already be there
 the next time you start it up:
 
