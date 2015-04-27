@@ -28,7 +28,7 @@ bin/prepare-refseqs.pl --fasta /data/reference.fasta
 # import features (GFF)
 bin/flatfile-to-json.pl \
   --gff /data/annotation.gff \
-  --traceType CanvasFeatures \
+  --trackType CanvasFeatures \
   --trackLabel "RAST Annotation"
 
 # disconnect from container
