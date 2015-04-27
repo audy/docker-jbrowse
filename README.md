@@ -23,7 +23,7 @@ docker exec -t -i <container id> /bin/bash
 # now, from the container
 
 # import reference:
-bin/prepare-refseqs.pl /data/reference.fasta
+bin/prepare-refseqs.pl --fasta /data/reference.fasta
 
 # import features (GFF)
 bin/flatfile-to-json.pl \
