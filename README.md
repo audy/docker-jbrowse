@@ -30,6 +30,9 @@ bin/flatfile-to-json.pl \
   --gff /data/annotation.gff \
   --trackType CanvasFeatures \
   --trackLabel "RAST Annotation"
+  
+# import assembly (SAM)
+# (TODO)
 
 # disconnect from container
 exit
